@@ -1,0 +1,122 @@
+body {
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    
+    
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+p {
+    font-size: 35px;
+}
+#screen {
+    width: 1000px;
+    height: 60px;
+    position: relative;
+    bottom: 20px;
+    border-style: double;
+    border-color: rgb(24, 67, 146);
+    font-style:normal;   
+}
+
+input[type=text]
+{
+    color: #979797;
+    font-size: 35px;
+    border-radius: 15%;
+    
+}
+
+#display {
+    width: 1200px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid #248686;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#key_cont
+{   
+    margin-top: 25px; 
+    width: 400px;
+    text-align: center;
+    min-height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#letter
+{
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 40px;
+}
+
+#letter:hover
+{
+    background-color: #222222;
+    color: white;
+    border: 5px solid white;
+}
+
+#Cletter
+{
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid Gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 40px;
+}
+#Cletter:hover
+{
+    background-color:green;
+    color:white;
+    border: 5px solid black;
+}
+
+#Hletter
+{
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 117px;
+    border: 5px solid Gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 40px;
+}
+#Hletter:hover
+{
+    background-color:red;
+    color:white;
+    border: 5px solid black;
+}
+
+
+
